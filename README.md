@@ -1,4 +1,3 @@
-# HTML_CSS
 
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
 "http://www.w3.org/TR/xhtml1?DTD/xhtml1-transitional.dtd">
@@ -10,7 +9,349 @@
 <meta charset="utf-8">
 <title> Koodi Systems </title>
 
-<link rel="stylesheet" type="text/css" href="style.css" />
+<!-- <link rel="stylesheet" type="text/css" href="style.css" /> -->
+<style type="text/css">.logo{
+   width:100px;
+   height:60px;
+   position: fixed;
+   padding-left: 30px;
+}
+
+
+.header_link{
+    text-align:right;
+    padding-right: 20px;
+    margin-top: 40px;
+    
+
+}
+
+a.header{
+	    margin: 10px;
+        color: gray;
+        text-decoration: none;
+        font-family: sans-serif;
+        display: inline;
+
+       }
+
+a.header:hover{
+	color: orange;                
+       }
+a.header:visited {
+    color: orange;
+	   }
+
+
+.whoweare {
+    color: black;
+    font-family: 'Raleway',sans-serif;
+    text-align: center;
+}
+.content1 {
+	color: gray;
+    letter-spacing: 1px;
+    font-family: 'Raleway',sans-serif;
+    text-align: center;
+}
+.content2{
+	color: #A9A9A9;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+
+
+#bgcolor{
+
+	background-color: #f6ecc5;
+	margin-bottom: 20px;
+	padding: 20px;
+}
+
+.content_webdev {
+	
+
+    margin: 5%;
+    width: 20%;
+    margin-left: 10%;
+}
+
+.content_mobiledev {
+	
+    
+	padding-left: 30%;
+    margin: 5%;
+    width: 20%;
+    position: absolute;
+    left: 0px;
+    top: 195px;
+    z-index: 1;
+    margin-left: 10%;
+
+}
+
+.content_startup {
+	
+	
+
+	padding-left: 60%;
+    margin: 5%;
+    width: 20%;
+    position: absolute;
+    left: 0px;
+    top: 195px;
+    z-index: 1;
+    margin-left: 10%
+}
+
+.content_latestwork {
+	padding-top: 70px;
+
+}
+
+   
+
+.link_earlybird{
+		
+		padding: 4px;
+		float: left;
+
+}
+.drupal{
+	    border: 1px solid gray;
+	    text-decoration: none;
+	    color: gray;
+	    font-size: 13px;
+       }
+.drupal6{
+	    border: 1px solid gray;
+	    text-decoration: none;
+	    color: gray;
+	    font-size: 13px;
+       }
+.restaurant{
+	    border: 1px solid gray;
+	    text-decoration: none;
+	    color: gray;
+	    font-size: 13px;
+       }
+.ecommerce{
+	    border: 1px solid gray;
+	    text-decoration: none;
+	    color: gray;
+	    font-size: 13px;
+       }
+.mobile{
+	    border: 1px solid gray;
+	    text-decoration: none;
+	    color: gray;
+	    font-size: 13px;
+       }
+
+
+
+.link_impactinstrument{
+		
+		padding: 4px;
+		float: left;
+
+
+}
+.wordpress{
+	    border: 1px solid gray;
+	    text-decoration: none;
+	    color: gray;
+	    font-size: 13px;
+       }
+.multisite{
+	    border: 1px solid gray;
+	    text-decoration: none;
+	    color: gray;
+	    font-size: 13px;
+       }
+
+
+.link_rocketpages{
+		
+		padding: 4px;
+		float: left;
+		margin-left: 90px;
+
+}
+.symfony{
+	    border: 1px solid gray;
+	    text-decoration: none;
+	    color: gray;
+	    font-size: 13px;
+       }
+.sitebuilder{
+	    border: 1px solid gray;
+	    text-decoration: none;
+	    color: gray;
+	    font-size: 13px;
+       }
+.webdesign{
+	    border: 1px solid gray;
+	    text-decoration: none;
+	    color: gray;
+	    font-size: 13px;
+       }
+
+
+.link_wisebread{
+		
+		padding: 4px;
+		float: left;
+		margin-left: 90px;
+		 margin-bottom: 150px; /* for .link_seeourprojects */
+
+}
+.drupal_wisebread{
+	    border: 1px solid gray;
+	    text-decoration: none;
+	    color: gray;
+	    font-size: 13px;
+       }
+.responsive{
+	    border: 1px solid gray;
+	    text-decoration: none;
+	    color: gray;
+	    font-size: 13px;
+       }
+.editorial{
+	    border: 1px solid gray;
+	    text-decoration: none;
+	    color: gray;
+	    font-size: 13px;
+
+       }
+
+ .link_seeourprojects {
+ 	
+ 	margin-top: 450px;
+ 	border: 2px solid black;
+ 	text-decoration: none;
+ 	color: black;
+
+ }
+
+
+ /* S L I D E */
+
+  .slide {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100%; 
+
+}
+
+#slide_whatclientssay {
+	font-style: italic;
+    position: absolute;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    -webkit-animation: slide 0.5s forwards;
+    -webkit-animation-delay: 2s;
+    animation: slide 0.5s forwards;
+    animation-delay: 2s;
+}
+
+@-webkit-keyframes slide {
+    100% { left: 0; }
+}
+
+@keyframes slide {
+    100% { left: 0; }
+}
+
+
+#ourprocess_bg_color{
+	background-color: orange;
+	margin-top: 90px;
+	color: white;
+}
+
+.content_strategy {
+    width: 20%;
+    position: relative;
+    left: 30px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 30px;
+
+}
+
+.content_design {
+    width: 20%;
+ 	position: absolute;
+    left: 30%;
+    margin-top: -320px;
+
+}
+
+.content_development {
+
+    width: 20%;
+  position: absolute;
+    left: 50%;
+    margin-top: -320px;
+}
+.content_support {
+	width: 20%;
+  	position: absolute;
+    left: 70%;
+    margin-top: -320px;
+
+}
+
+
+
+#development_help {
+	padding-top: 110px;
+}
+
+.link_discuss {
+	text-decoration: none;
+	background-color: orange;
+	color: white;
+	
+
+
+}
+
+.link_aboutus {
+	background-color: #ECD078;
+	color: white;
+	text-decoration: none;
+
+}
+
+#footer{
+	background-color: black;
+
+}
+#content_footer{
+	
+}
+.termsofuse{
+	color: gray;
+	border-bottom: dotted;
+	text-decoration: none;
+}
+.privacypolicy{
+	color: gray;
+	border-bottom: dotted;
+	text-decoration: none;
+}
+.jobs{
+	color: gray;
+	border-bottom: dotted;
+	text-decoration: none;
+}</style>
 
 </head>
 
