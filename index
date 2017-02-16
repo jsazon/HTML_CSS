@@ -157,19 +157,28 @@ Assist and train people involved </p>
 </div>
 
 
-<footer id="footer">
 
-<p> Copyrights © 2013-2017 All Rights Reserved by Koodi Systems </p>
 
 <div id="content_footer">
-<a class="termsofuse" href="http://koodi.ph/terms-use"> Terms of Use </a>
-<a class="privacypolicy" href="http://koodi.ph/privacy-policy"> Privacy Policy </a>
+
+<p> Copyrights © 2013-2017 All Rights Reserved by Koodi Systems </p>
+<a class="termsofuse" href="http://koodi.ph/terms-use"> Terms of Use </a> /
+<a class="privacypolicy" href="http://koodi.ph/privacy-policy"> Privacy Policy </a> /
 <a class="jobs" href="http://koodi.ph/careers"> Jobs@Koodi </a>
+
+
+<!-- 
+<div class="slide_twitter">
+	<img id="graytwitter" sizes="img/graytwitter.png" />
+    <img id="slide_twitter_animation" src="img/twitter.png" />
+</div> --> 
+
+
+<p class="footer_contact"> hello [at] koodi.ph ·  +63 (45) 409-3304 </p>
 </div>
-<p> hello [at] koodi.ph ·  +63 (45) 409-3304 </p>
 
 
-</footer>
+
 </body>
 
 </hmtl>
