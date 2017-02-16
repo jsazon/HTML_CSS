@@ -300,6 +300,7 @@ a.header:visited {
 
 #development_help {
 	padding-top: 110px;
+	background-color: #282828;
 }
 
 .link_discuss {
@@ -315,20 +316,24 @@ a.header:visited {
 	background-color: #ECD078;
 	color: white;
 	text-decoration: none;
-
 }
 
-#footer{
-	background-color: black;
 
-}
 #content_footer{
-	
+	background-color: black;
+	width: 98.8%;
+	height: 20%;
+	text-align: left;
+	position: absolute;
+
 }
+
+
 .termsofuse{
 	color: gray;
 	border-bottom: dotted;
 	text-decoration: none;
+
 }
 .privacypolicy{
 	color: gray;
@@ -339,4 +344,36 @@ a.header:visited {
 	color: gray;
 	border-bottom: dotted;
 	text-decoration: none;
+	
 }
+.footer_contact {
+	text-align: right;
+	position: absolute;
+	margin-top: -30px;
+	margin-left: 860px;
+}
+
+/* S L I D E 
+
+.slide_twitter {
+    
+     position: relative;
+    overflow: hidden;
+    width: 100px;
+    height: 100px; 
+    border: 1px solid black;
+
+}
+
+#slide_twitter_animation {
+    position: absolute;
+    left: 100px;
+    width: 100px;
+    height: 100px;
+    transition: 1s;
+}
+
+.slide_twitter:hover #slide_twitter_animation {
+    transition: 1s;
+    left: 0;
+} */
